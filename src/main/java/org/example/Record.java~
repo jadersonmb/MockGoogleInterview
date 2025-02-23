@@ -1,0 +1,24 @@
+package org.example;
+
+/*It is not extends any class
+* It is implement any interface
+* it is not abstract
+* It is not variable
+* All attributes are final*/
+public class Record {
+    public static void main(String[] args) {
+        Person person = new Person("John", 30);
+        System.out.println("Name: " + person.name() + "\nAge: " + person.age());
+        person.walking();
+    }
+}
+
+interface Exercise {
+    void walking();
+}
+record Person (String name, int age) implements Exercise {
+    @Override
+    public void walking() {
+        System.out.println("Person is walking");
+    }
+}

@@ -1,0 +1,18 @@
+package org.patters.creational.factory.factories;
+
+import org.patters.creational.factory.interfaces.CarService;
+import org.patters.creational.factory.interfaces.UserService;
+import org.patters.creational.factory.service.CarRestService;
+import org.patters.creational.factory.service.UserRestService;
+
+public class RestAbstractFactory implements org.patters.creational.factory.factories.ServiceAbstractFactory {
+    @Override
+    public UserService getUserService() {
+        return new UserRestService();
+    }
+
+    @Override
+    public CarService getCarService() {
+        return new CarRestService();
+    }
+}
