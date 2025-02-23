@@ -1,8 +1,12 @@
 Mock Google Interview
 
+
+
+
+
 This repository is a study project focused on practicing Java development, algorithms, and system design, inspired by Google technical interviews. The project includes various classes, implementations, and exercises to enhance coding skills.
 
-Features
+🚀 Features
 
 Java Development: Implementing core Java concepts, object-oriented programming (OOP), and best practices.
 
@@ -12,7 +16,7 @@ System Design: Designing scalable and maintainable software architectures.
 
 Testing: Writing unit and integration tests for better code reliability.
 
-Technologies Used
+🛠 Technologies Used
 
 Java (JDK 8+)
 
@@ -22,17 +26,17 @@ JUnit (for testing)
 
 Maven/Gradle (for dependency management)
 
-Project Structure
+📂 Project Structure
 
 MockGoogleInterview/
 │── src/
 │   ├── main/java/com/example/
 │   ├── test/java/com/example/
-│── pom.xml (for Maven projects)
+│── pom.xml (for Maven projects) 
 │── build.gradle (for Gradle projects)
 │── README.md
 
-How to Run
+🚀 How to Run
 
 Clone the repository:
 
@@ -52,11 +56,11 @@ Run the application:
 java -jar target/mock-google-interview.jar  # For Maven
 java -jar build/libs/mock-google-interview.jar  # For Gradle
 
-Contribution
+🤝 Contribution
 
 Feel free to fork the repository and submit pull requests with improvements or new challenges.
 
-License
+📜 License
 
 This project is for educational purposes and is distributed under the MIT License.
 
